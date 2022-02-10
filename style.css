@@ -1,0 +1,48 @@
+body {
+    background: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+main {
+    background: white;
+    max-width: 450px;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+}
+
+.image {
+    border-radius: 10px 10px 0 0;
+}
+
+.upper {
+    text-align: center;
+    padding: 0 45px;
+}
+
+.mid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: hsl(225, 100%, 98%);
+    margin: 0 50px;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.lower {
+    padding: 50px;
+    text-align: center;
+}
+
+.lower a {
+    display: block;
+    text-decoration: none;
+}
+
+.pay {
+    background: hsl(245, 75%, 52%);
+    color: white;
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
