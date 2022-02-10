@@ -1,13 +1,14 @@
 body {
     background: hsl(225, 100%, 94%);
     font-family: 'Red Hat Display', sans-serif;
+    padding: 20px 0;
 }
 
 main {
     background: white;
     max-width: 450px;
     margin: 0 auto;
-    border-radius: 0 0 10px 10px;
+    border-radius: 10px;
 }
 
 .image {
@@ -19,6 +20,15 @@ main {
     padding: 0 45px;
 }
 
+h1 {
+    color: hsl(223, 47%, 23%);
+}
+
+.upper p {
+    color: hsl(224, 23%, 55%);
+    line-height: 150%;
+}
+
 .mid {
     display: flex;
     justify-content: space-between;
@@ -27,6 +37,17 @@ main {
     margin: 0 50px;
     border-radius: 10px;
     padding: 0 20px;
+}
+
+.mid h2 {
+    font-size: 16px;
+    margin: 20px 0 0 -70px;
+}
+
+.mid p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    margin: 5px 0 20px -70px;
 }
 
 .lower {
@@ -45,4 +66,10 @@ main {
     padding: 10px 50px;
     border-radius: 10px;
     margin-bottom: 30px;
+}
+
+.cancel {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 14px;
 }
